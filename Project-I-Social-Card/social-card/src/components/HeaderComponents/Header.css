@@ -3,22 +3,17 @@
 .card-header {
   display: flex;
   border: 1px solid #777777;
-  height: 100px;
-}
-
-.thumbnail {
-  border: 1px solid gray;
+  height: 120px;
 }
 
 .header-title {
-  margin-left: 1rem;
+  margin-left: 0.25rem;
   display: flex;
   align-items: center;
-  width: 100%;
 }
 
-.header-content {
-  width: 100%;
+.header-info {
+  margin-left: 0.25rem;
 }
 
 .image {
@@ -27,8 +22,12 @@
   margin: 1rem;
 }
 
-.header-contents {
-  display: flex;
-  flex-flow: column nowrap;
-  border: 2px solid red;
+.card-contents {
+  border-left: 1px solid #777777;
+}
+
+.title-info {
+  margin-left: 0.3rem;
+  color: #777777;
+  font-size: 0.9rem;
 }

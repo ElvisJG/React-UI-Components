@@ -8,8 +8,10 @@ function HeaderContainer() {
   return (
     <div className='card-header'>
       <ImageThumbnail />
-      <HeaderTitle />
-      <HeaderContent />
+      <div className='card-contents'>
+        <HeaderTitle />
+        <HeaderContent />
+      </div>
     </div>
   );
 }

@@ -4,7 +4,11 @@ import './Header.css';
 function ImageThumbnail() {
   return (
     <div className='thumbnail'>
-      <img src='../../lambdalogo.png' alt='Lambda School Logo' class='image' />
+      <img
+        src='../../lambdalogo.png'
+        alt='Lambda School Logo'
+        className='image'
+      />
     </div>
   );
 }
