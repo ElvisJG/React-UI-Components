@@ -3,7 +3,7 @@ import './Header.css';
 
 function HeaderContent() {
   return (
-    <div class='header'>
+    <div class='header-contents'>
       <div className='header-content'>
         <p>
           Let's learn React by building simple interfaces with components. Don't

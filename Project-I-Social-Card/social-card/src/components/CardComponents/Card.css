@@ -5,8 +5,10 @@
 }
 
 .card-content {
-  border: 1px solid #222222;
-  margin-top: -0.25rem;
+  border: 1px solid #777777;
+  border-radius: 4px;
+  margin: -0.25rem 0 0.5rem;
+  width: 398px;
 }
 
 .card-container {
