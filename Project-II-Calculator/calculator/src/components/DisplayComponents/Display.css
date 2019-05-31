@@ -1,0 +1,7 @@
+.screen {
+  background: darkgray;
+  color: white;
+  border: 2px solid black;
+  height: 100px;
+  width: 400px;
+}

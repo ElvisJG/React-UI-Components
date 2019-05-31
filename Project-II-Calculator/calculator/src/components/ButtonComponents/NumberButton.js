@@ -2,7 +2,7 @@ import React from 'react';
 import './Button.css';
 
 function NumberButton() {
-  return null;
+  return <div className='numberButton' />;
 }
 
 export default NumberButton;

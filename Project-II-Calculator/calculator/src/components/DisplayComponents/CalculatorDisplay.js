@@ -1,8 +1,10 @@
 import React from 'react';
 import './Display.css';
+import ActionButton from '../ButtonComponents/ActionButton';
+import NumberButton from '../ButtonComponents/NumberButton';
 
 function CalculatorDisplay() {
-  return null;
+  return <div className='screen' />;
 }
 
 export default CalculatorDisplay;
