@@ -1,7 +1,7 @@
 .actionButton {
   background: #a0001e;
   color: white;
-  border: 1px solid gray;
+  border: 1px solid #979797;
   height: 100px;
   width: 100px;
   line-height: 15px;
@@ -14,7 +14,7 @@
 .numberButton {
   background: white;
   color: #111111;
-  border: 1px solid gray;
+  border: 1px solid #979797;
   height: 100px;
   width: 100px;
   line-height: 15px;
@@ -27,7 +27,7 @@
 .clearButton {
   background: white;
   color: #111111;
-  border: 1px solid gray;
+  border: 1px solid #979797;
   height: 100px;
   width: 300px;
   line-height: 15px;
