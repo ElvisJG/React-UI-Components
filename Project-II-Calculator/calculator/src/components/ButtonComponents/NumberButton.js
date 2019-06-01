@@ -5,7 +5,10 @@ const NumberButton = props => {
   return (
     <div className='numberContainer'>
       <div className='numberbutton'>
-        <button className={`numberButton ${props.buttonStyle}`}>
+        <button
+          className={`numberButton ${props.buttonStyle}`}
+          onClick={e => console.log('Clicked', props.text)}
+        >
           {props.text}
         </button>
       </div>
