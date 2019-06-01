@@ -5,10 +5,16 @@ const NumberButton = props => {
   return (
     <div className='numberContainer'>
       <div className='numberbutton'>
-        <button className={props.buttonStyle}>{props.text}</button>
+        <button className={`numberButton ${props.buttonStyle}`}>
+          {props.text}
+        </button>
       </div>
     </div>
   );
 };
+
+// NumberButton.defaultProps = {
+//   buttonStyle: 'numberButton'
+// };
 
 export default NumberButton;

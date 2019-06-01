@@ -1,15 +1,28 @@
+.calculator {
+  height: 600px;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  border: 2px solid black;
+  margin: 2rem;
+}
+
 .screen {
   background: #222222;
   color: white;
-  border: 2px solid gray;
   height: 100px;
   width: 400px;
   display: flex;
   justify-content: flex-end;
   align-items: flex-end;
-  margin: 2rem;
+  font-size: 80px;
 }
 
 .screenNum {
   padding-right: 1rem;
+}
+
+.row {
+  display: flex;
+  width: 400px;
 }
