@@ -12,7 +12,7 @@ function CalculatorDisplay() {
 
       <div className='row'>
         <NumberButton text='clear' buttonStyle='clearButton' />
-        <ActionButton text='/' />
+        <ActionButton text='÷' />
       </div>
 
       <div className='row'>

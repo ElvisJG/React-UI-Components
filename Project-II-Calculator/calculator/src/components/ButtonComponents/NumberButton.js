@@ -16,8 +16,4 @@ const NumberButton = props => {
   );
 };
 
-// NumberButton.defaultProps = {
-//   buttonStyle: 'numberButton'
-// };
-
 export default NumberButton;
